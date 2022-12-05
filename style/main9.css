@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+        url('../fonts/Rubik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Light.woff2') format('woff2'),
+        url('../fonts/Rubik-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: Rubik;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1200px;
+}
+
+.header {
+    background: #F6F6F6;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-top-1 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.top-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #7296EE;
+    margin: 40px 0;
+    background-color: #ffffff;
+    border-radius: 7px;
+
+}
+
+.top-span-1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2959CE;
+
+}
+
+.top-span-2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2959CE;
+}
+
+.header-top-2 {
+    display: flex;
+}
+
+.button {
+    background: #FFFFFF;
+    border-radius: 60px;
+    margin-right: 25px;
+    padding: 5px 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8D8D8D;
+}
+
+.btn-1 {
+    background: #DCE6FF;
+    border-radius: 39px;
+    margin-right: 25px;
+    padding-left: 7px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-2 {
+    background: #7296EC;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    padding: 13px 20px;
+    cursor: pointer;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 20px 0;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.nav-list {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #7F7F7F;
+
+}
+
+.div-form {
+    display: flex;
+    gap: 10px;
+}
+
+.div-heading {
+    margin-bottom: 20px;
+}
+
+.form-username {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 18px 160px 18px 20px;
+    margin-right: 10px;
+    
+}
+
+.form-tell {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 18px 170px 18px 20px;
+}
+
+.form-email {
+    margin-top: 10px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 18px 526px 18px 20px;
+
+}
+
+.form-text {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 18px 526px 143px 20px;
+    margin-top: 10px;
+    resize: none;
+}
+
+.div-form-right {
+    background: #F6F6F6;
+    border-radius: 10px;
+    margin-left: 10px;
+    
+}
+
+.div-text-rigth {
+    margin-top: 40px;
+    margin-bottom: 7px;
+    padding-right: 276px;
+    padding-left: 25px;
+    font-style: normal;
+    font-weight: 501;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 193px;
+}
+
+.div-text-rigth-1 {
+    padding-right: 396px;
+    padding-left: 25px;
+    font-style: normal;
+    font-weight: 501;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 166px;
+}
+
+.div-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #D2D2D2;
+    padding-bottom: 20px;
+}
+
+.div-text-rigth-2 {
+    padding-right: 407px;
+    padding-left: 25px;
+    font-style: normal;
+    font-weight: 501;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 62px;
+}
+
+.div-address-1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding-left: 25px;
+}
+
+.div-form-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    background: #7297EF;
+    border-radius: 10px;
+    border: none;
+    padding: 17px 30px;
+    margin: 20px 504px 100px 551px;
+    cursor: pointer;
+}
+.footer {
+    background: #7297EF;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-div {
+    
+}
+
+.footer-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    width: 229px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.footer-ul{
+      margin-top: 83px; 
+      
+     
+
+}
+.footer-list{
+  
+    margin-bottom: 20px;
+    
+}
+.footer-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px; 
+    color: #FFFFFF;
+    
+}
+.footer-div-3{
+    display: flex;
+   justify-content: space-between;
+    border-top: 1px solid #CECECE; 
+
+     
+  
+}
+.footer-text-1{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+padding-left: 96px;
+padding-top: 20px;
+width: 250px;
+margin-bottom: 40px;
+
+}
+.footer-logo{
+    margin-right: 32.15px;
+    margin-bottom: 50px;
+    padding-top: 31px;
+}
+.footer-logo-1{
+    margin-right: 33.36px;
+    margin-bottom: 50px;
+    padding-top: 31px;
+}
+.footer-logo-2{
+    margin-right: 35px;
+    margin-bottom: 50px;
+    padding-top: 31px;
+}
+.footer-logo-3{
+    margin-bottom: 50px;
+    padding-top: 31px;
+}
